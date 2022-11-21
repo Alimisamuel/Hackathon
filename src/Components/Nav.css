@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+.appbar{
+    height: 300px !important;
+    width: 200px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    top:100px !important;
+    backdrop-filter: blur(10px);
+    font-family: Roboto;
+}
+@media (max-width:900px) {
+    .appbar{
+        height: 50px !important;
+        width: 100px !important;
+    }
+}
